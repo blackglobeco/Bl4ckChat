@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-terminal-green font-mono;
+  }
+}
+
+@layer components {
+  .terminal-input {
+    @apply bg-transparent border-none outline-none text-terminal-green font-mono;
+  }
+
+  .terminal-button {
+    @apply bg-terminal-gray hover:bg-terminal-green hover:text-black transition-colors px-4 py-2 rounded font-mono;
+  }
+
+  .message-bubble {
+    @apply max-w-md p-3 rounded-lg mb-2;
+  }
+
+  .message-own {
+    @apply bg-terminal-green text-black ml-auto;
+  }
+
+  .message-other {
+    @apply bg-terminal-gray text-terminal-green;
+  }
+
+  .channel-tab {
+    @apply px-4 py-2 border border-terminal-green hover:bg-terminal-green hover:text-black transition-colors cursor-pointer;
+  }
+
+  .channel-tab.active {
+    @apply bg-terminal-green text-black;
+  }
+}
