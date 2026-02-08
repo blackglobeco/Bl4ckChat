@@ -47,7 +47,7 @@ function App() {
           {/* Footer */}
           <footer className="border-t border-terminal-green p-2 text-xs opacity-50">
             <div className="flex justify-between">
-              <span>BitChat Web - Open Source • Public Domain</span>
+              <span>BlackChat - Black Globe ® • Public Domain</span>
               <span>
                 {navigator.bluetooth
                   ? "Web Bluetooth Ready"
