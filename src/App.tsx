@@ -14,7 +14,7 @@ function App() {
           <header className="border-b border-terminal-green p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-4">
-                <h1 className="text-2xl font-bold">BitChat Web</h1>
+                <h1 className="text-2xl font-bold">BlackChat</h1>
               </div>
 
               {/* Bluetooth Support Warning */}
@@ -50,8 +50,8 @@ function App() {
               <span>BlackChat - Black Globe ® • Public Domain</span>
               <span>
                 {navigator.bluetooth
-                  ? "Web Bluetooth Ready"
-                  : "Web Bluetooth Unavailable"}
+                  ? "Bluetooth Ready"
+                  : "Bluetooth Unavailable"}
               </span>
             </div>
           </footer>
